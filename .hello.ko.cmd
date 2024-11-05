@@ -1,0 +1,1 @@
+cmd_/home/maksym/Desktop/lab4/hello.ko := ccache arm-linux-gnueabihf-ld -r  -EL -z noexecstack  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/maksym/Desktop/lab4/hello.ko /home/maksym/Desktop/lab4/hello.o /home/maksym/Desktop/lab4/hello.mod.o ;  true
